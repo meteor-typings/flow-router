@@ -1,5 +1,5 @@
 {
-  "name": "flow-router",
+  "name": "meteorhacks:flow-router",
   "version": "1.19.0",
   "main": "main.d.ts",
   "homepage": "https://atmospherejs.com/meteorhacks/flow-router",
