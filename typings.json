@@ -1,7 +1,7 @@
 {
-  "name": "meteorhacks:flow-router",
-  "version": "1.19.0",
+  "name": "kadira:flow-router",
+  "version": "1.20.0",
   "main": "main.d.ts",
-  "homepage": "https://atmospherejs.com/meteorhacks/flow-router",
-  "ambient": true
+  "homepage": "https://atmospherejs.com/kadira/flow-router",
+  "global": true
 }

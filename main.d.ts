@@ -1,5 +1,5 @@
 // Type definitions for FlowRouter.
-// Project: https://atmospherejs.com/meteorhacks/flow-router
+// Project: https://atmospherejs.com/kadira/flow-router
 // Definitions by:
 // <https://github.com/tomitrescak>
 
@@ -43,11 +43,19 @@ interface FlowRouterStatic {
   subsReady(subscription?: string): boolean;
 }
 
-declare var FlowRouter: FlowRouterStatic
-
+declare var FlowRouter: FlowRouterStatic;
 
 interface FlowLayoutStatic {
   render(layoutName: string, templates: Object): void;
 }
 
 declare var FlowLayout: FlowLayoutStatic;
+
+declare module 'meteor/kadira:flow-router' {
+  export var FlowRouter: FlowRouterStatic;
+}
+
+// For backwards compatibility
+declare module 'meteor/meteorhacks:flow-router' {
+  export var FlowRouter: FlowRouterStatic;
+}
