@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "typings bundle --ambient -o out"
+    "build": "typings bundle --global -o out/main.d.ts"
   },
   "devDependencies": {
     "tsc": "^1.20150623.0",
